@@ -3,9 +3,10 @@ investigating a given phishing email to reveal the risks involved
 
 # Phishing Email Analysis Report
 Summary of Findings
-This email, "A Hope to CoCanDa," exhibits multiple classic phishing indicators. The sender is impersonating a legitimate entity and is attempting to elicit a response that involves a financial transaction and the download of a malicious file.
+This email exhibits multiple classic phishing indicators. The sender is impersonating a legitimate entity and is attempting to elicit a response that involves a financial transaction and the download of a malicious file.
 
 Technical Analysis (Email Headers)
+
 The email headers provide clear evidence of spoofing and failed security checks.
 
 Sender Address: The email claims to be from "Bill" at billjobs@microapple.com. This domain microapple.com is a clear attempt to impersonate both Microsoft and Apple, a common tactic in phishing scams. The Return-Path also points to this same fraudulent address.
@@ -23,6 +24,7 @@ Reply-To: negeja3921@pashter.com
 From: "Bill" <billjobs@microapple.com>
 
 Content Analysis (Email Body & Attachment)
+
 The content of the email and its attachment are designed to manipulate the recipient into taking a specific action.
 
 Social Engineering: The email uses a high-stakes, urgent scenario involving "abducted CoCanDians" and the "President’s daughter" to create a sense of panic and urgency. This is a classic tactic to bypass rational thinking.
@@ -34,6 +36,7 @@ Lack of Personalization: The email starts with a generic "Hi TheMajorOnEarth," r
 Attachment: The email contains a PDF attachment named "PuzzleToCoCanDa.pdf". The body of the email instructs the user to "solve the puzzle" for the "next steps". This attachment is a malicious payload that is likely designed to deliver malware or other threats when opened. The email also contains a "hint" for the puzzle: "Don't Trust Your Eyes".
 
 Call for Action (For Organizational Employees)
+
 If you receive an email of this nature, please take the following steps immediately to protect yourself and the organization:
 
 Do Not Engage: Do not reply to the email, click any links, or open any attachments, regardless of how convincing the message may seem. The attachment is likely malicious and could infect your computer or the company network.
